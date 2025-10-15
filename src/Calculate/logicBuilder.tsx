@@ -88,7 +88,7 @@ const LogicBuilder: React.FC<LogicBuilderProps> = ({ onGenerate, onClear }) => {
                     <div className="d-flex gap-2 justify-content-center">
                         <button
                             className="text-white"
-                            style={{ backgroundColor: 'cornflowerblue', borderRadius: '10px', padding: '10px 20px' }}
+                            style={{ backgroundColor: 'cornflowerblue', borderRadius: '10px', padding: '10px 20px', border: 'none' }}
                             onClick={() => onGenerate(expression)}
                             disabled={!expression}
                         >
