@@ -1,5 +1,6 @@
 import { DonutLarge } from "@mui/icons-material"
 import TableOperator from "./table/table-operator"
+import CalculateVisit from "./Calculate";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
 
         <TableOperator />
 
+        <CalculateVisit/>
       </section>
       <footer className="w-100 d-flex justify-content-center align-items-center mt-4" 
         style={{ backgroundColor: '#0A0A0A', padding: '40px 80px', borderTop: '3px solid #282a2c', gap: '120px' }}
@@ -38,4 +40,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
