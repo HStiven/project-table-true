@@ -10,7 +10,12 @@ function App() {
         </div>
         <p className="w-50 text-center mb-0" style={{fontSize: '0.8rem', color: '#ffffff94'}}>Generador interactivo de tablas de verdad para operadores lógicos</p>
       </header>
+
       <TableOperator/>
+
+      <footer className="w-100 d-flex flex-column py-4">
+        
+      </footer>
     </section>
   )
 }
